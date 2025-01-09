@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router Dom v6 where navigating to an invalid route can cause unexpected behavior, such as crashing the application or displaying a blank screen.  The solution demonstrates how to gracefully handle these situations by adding a `Route` component with a `path="*"` to catch any unmatched paths and display a custom 404 page.
